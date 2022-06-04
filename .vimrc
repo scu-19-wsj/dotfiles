@@ -82,3 +82,6 @@ colorscheme quantum
 
 " Airline theme
 let g:airline_theme='quantum'
+
+" Remove pipes | that act as separators on splits
+set fillchars+=vert:\ "white space at the end
