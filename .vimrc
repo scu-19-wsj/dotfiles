@@ -9,6 +9,8 @@
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+set encoding=UTF-8
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -50,6 +52,7 @@ let g:airline_powerline_fonts = 1
 "let g:airline_left_sep=''
 "let g:airline_right_sep=''
 
+
 call plug#begin()
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
@@ -63,8 +66,11 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tyrannicaltoucan/vim-quantum'
-
+Plug 'ap/vim-css-color'
+Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'ryanoasis/vim-devicons' "Always load the vim-devicons as the very last one.
 call plug#end()
+
 
 " Colorscheme
 "set background=dark
