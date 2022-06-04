@@ -7,6 +7,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # editor & visual
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
+# language
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -107,7 +110,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 
 
 export NO_PROXY="localhost,127.0.0.1,::1"
