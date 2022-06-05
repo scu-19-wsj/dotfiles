@@ -8,7 +8,7 @@
 "                 ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+" Encoding
 set encoding=UTF-8
 
 " Disable compatibility with vi which can cause unexpected issues.
@@ -23,6 +23,14 @@ filetype plugin on
 " Load an indent file for the detected file type.
 filetype indent on
 
+" Indent
+ set softtabstop=4 " every time you press the <Tab> key the cursor moves to the next 4-column boundary
+ set shiftwidth=4  " amount of spaces you want for a deeper level
+ set autoindent    " turns it on
+ set smartindent   " does the right thing (mostly) in programs
+ set cindent       " stricter rules for C programs
+"set expandtab     " don't use actual tab character (ctrl-v)
+ 
 " Turn syntax highlighting on.
 syntax on
 
@@ -69,19 +77,25 @@ Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'ap/vim-css-color'
 Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'ryanoasis/vim-devicons' "Always load the vim-devicons as the very last one.
+
 call plug#end()
 
 
-" Colorscheme
-"set background=dark
+" Colorscheme Quantum :A color scheme based on Google's Material Design palette.
+" set background=dark
+" let g:quantum_italics=1
 set termguicolors
-"let g:quantum_italics=1
 let g:quantum_black=1
 colorscheme quantum
+
+
+" Colorscheme Base16-default-dark
 "colorscheme base16-default-dark
+
 
 " Airline theme
 let g:airline_theme='quantum'
+
 
 " Remove pipes | that act as separators on splits
 set fillchars+=vert:\ "white space at the end

@@ -125,3 +125,7 @@ proxyoff () {
 }
 
 alias config="/usr/bin/git --git-dir=$HOME/Code/dotfiles/ --work-tree=$HOME"
+
+
+### Random Color Script ###
+colorscript random
