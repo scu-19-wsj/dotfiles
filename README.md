@@ -2,23 +2,23 @@
 
 ## Themes
 
-nordic-darker
-hitori-dots4
+- nordic-darker
+- hitori-dots4
 
 ## Icon theme
 
-Qogir-dark
+- Qogir-dark
 
 ## ColorScheme
 
-IR_black
-Shades-of-pastel
+- IR_black
+- Shades-of-pastel
 
 ## Packages
 
-intel-undervolt
+- intel-undervolt
 
 ## AUR
 
-shell-color-scripts
-xfce4-docklike-plugin
+- shell-color-scripts
+- xfce4-docklike-plugin
