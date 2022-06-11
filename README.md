@@ -1,4 +1,4 @@
-# my config
+# Michael's config
 
 ## Themes
 
@@ -11,8 +11,10 @@
 
 ## ColorScheme
 
-- IR_black
-- Shades-of-pastel
+|  software  |  colorscheme  |
+|  ----  | -----  |
+|   Mousepad | Shades-of-pastel |
+|   terminal | IR_black  |
 
 ## Packages
 
@@ -22,3 +24,4 @@
 
 - shell-color-scripts
 - xfce4-docklike-plugin
+- auto-cpufreq
