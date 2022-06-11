@@ -107,7 +107,6 @@ let g:quantum_italics=1
 let g:quantum_black=1
 colorscheme quantum
 
-
 " Remove pipes | that act as separators on splits
 set fillchars+=vert:\ 
 " White space at the end
@@ -151,7 +150,6 @@ inoremap <silent><expr> <c-@> coc#refresh()
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
 
 
 " ================= Key Mapping =================  

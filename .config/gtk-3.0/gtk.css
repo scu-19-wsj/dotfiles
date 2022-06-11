@@ -5,7 +5,9 @@
 
 #whiskermenu-button {
 	margin-left: 6px;
+	margin-right: 6px;
 }
+
 
 /*
 #whiskermenu-button label {
@@ -14,10 +16,6 @@
     font-style: italic; 
 }
 
-#docklike-plugin button {
-  min-height: 32px;
-  min-width: 30px;
-}
 
 #clock-button {
     font-weight: bold;
@@ -25,10 +23,7 @@
 */
 
 
-
-/*
- *  Whisker Menu
- */
+/* Whisker Menu */
 
 #whiskermenu-window * {
   border: 0px rgba(50, 52, 61, 0.95) solid; /*All border*/
@@ -108,3 +103,39 @@ border-radius: 10px;
 #whiskermenu-window iconview {
 color: #ffffff; /*text color when icon view mode*/
 }
+
+
+
+/* Docklike-Plugin */
+
+/* Brightly colored buttons */
+#docklike-plugin .open_group { background-color: #494c59; }
+#docklike-plugin .active_group { background-color: #494c59; }
+#docklike-plugin .hover_group { background-color: #494c59; }
+
+/* number of open windows label */
+#docklike-plugin .window_count { color: #2679db; }
+#docklike-plugin .open_group .window_count { color: #494c59; }
+#docklike-plugin .active_group .window_count { color : #494c59; }
+
+
+
+/* thunar */
+
+/*
+
+.thunar .sidebar { font-size: 0px; padding: 1.1rem; background-color:#1E1F29; }
+
+.thunar .sidebar .view{ padding: 0.2rem; background-color:#1E1F29; }
+
+.thunar .sidebar .view:selected{
+
+background:transparent; border-left:2px solid #2FC88D; }
+
+.thunar .standard-view .view{ background-color:#1E1F29;}
+
+.thunar toolbar{ margin-top: 0px; padding: 0px; background-color: #1E1F29;}
+
+.thunar toolbar.horizontal button image { -gtk-icon-transform:scale(0.72);}
+
+*/
