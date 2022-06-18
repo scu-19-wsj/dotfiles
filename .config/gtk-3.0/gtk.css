@@ -1,4 +1,4 @@
-#pulseaudio-button image { -gtk-icon-transform: scale(0.60); }
+#pulseaudio-button image { -gtk-icon-transform: scale(1.00); }
 #xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.60);}
 #xfce4-notification-plugin image {-gtk-icon-transform: scale(0.60);}
 
@@ -118,6 +118,10 @@ color: #ffffff; /*text color when icon view mode*/
 #docklike-plugin .open_group .window_count { color: #494c59; }
 #docklike-plugin .active_group .window_count { color : #494c59; }
 
+#docklike-plugin button {
+  min-height: 30px;
+  min-width: 22px;
+}
 
 
 /* thunar */

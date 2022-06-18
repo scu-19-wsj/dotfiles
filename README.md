@@ -2,7 +2,7 @@
 
 ## Themes
 
-- nordic-darker
+- Matcha-dark-pueril
 - hitori-dots4
 
 ## Icon theme
@@ -19,6 +19,9 @@
 ## Packages
 
 - intel-undervolt
+- powertop
+- thermald
+- fortune-mod
 
 ## AUR
 
