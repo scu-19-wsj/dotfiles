@@ -1,11 +1,11 @@
 # Michael's config
 
-## Themes
+## Xfce Themes
 
 - Matcha-dark-pueril
 - hitori-dots4
 
-## Icon theme
+### _Xfce Icon theme_
 
 - Qogir-dark
 
@@ -22,6 +22,7 @@
 - powertop
 - thermald
 - fortune-mod
+- latte-dock
 
 ## AUR
 
