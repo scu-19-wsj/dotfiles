@@ -22,10 +22,10 @@
 - powertop
 - thermald
 - fortune-mod
-- latte-dock
+- latte-dock (kde specific)
 
 ## AUR
 
 - shell-color-scripts
-- xfce4-docklike-plugin
 - auto-cpufreq
+- xfce4-docklike-plugin (xfce4 specific)
