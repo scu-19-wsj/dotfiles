@@ -3,7 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="/usr/share/zsh"
 
 # editor & visual
 export EDITOR=/usr/bin/vim
@@ -72,7 +71,7 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=/usr/share/zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
