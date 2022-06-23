@@ -29,3 +29,7 @@
 - shell-color-scripts
 - auto-cpufreq
 - xfce4-docklike-plugin (xfce4 specific)
+
+## Things to do after installation
+
+    Disable watchdog.
