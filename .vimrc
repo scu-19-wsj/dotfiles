@@ -16,7 +16,7 @@ set nocompatible
 set mouse=nv
 
 " Encoding
-set encoding=UTF-8
+set encoding=utf-8
 
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
@@ -73,6 +73,9 @@ let g:airline_powerline_fonts = 1
 "let g:airline_left_sep=''
 "let g:airline_right_sep=''
 
+" Vim-ariline theme
+let g:airline_theme='quantum'
+
 
 " ==================== Automatically install Vim-Plug ========================
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -105,9 +108,6 @@ call plug#end()
 
 
 " ===================== Theme =====================
-" Vim-ariline theme
-let g:airline_theme='quantum'
-
 " Colorscheme Quantum :A color scheme based on Google's Material Design palette.
 set background=dark
 set termguicolors

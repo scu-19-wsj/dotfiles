@@ -33,3 +33,4 @@
 ## Things to do after installation
 
     Disable watchdog.
+    Disable beep.
