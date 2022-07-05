@@ -13,8 +13,9 @@
 
 |  software  |  colorscheme  |
 |  ----  | -----  |
-|   Mousepad | Shades-of-pastel |
-|   terminal | IR_black  |
+|  Mousepad | Shades-of-pastel  |
+|  terminal | IR_black  |
+|  terminal | Catppuccin_Mocha  |
 
 ## Packages
 
