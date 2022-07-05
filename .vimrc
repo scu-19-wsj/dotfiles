@@ -100,6 +100,7 @@ Plug 'neoclide/coc.nvim', { 'branch':  'release' }
 Plug 'vim-airline/vim-airline'
 Plug 'mhinz/vim-startify'
 Plug 'tyrannicaltoucan/vim-quantum'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'ap/vim-css-color'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -109,11 +110,15 @@ call plug#end()
 
 " ===================== Theme =====================
 " Colorscheme Quantum :A color scheme based on Google's Material Design palette.
-set background=dark
+"set background=dark
+"set termguicolors
+"let g:quantum_italics=1
+"let g:quantum_black=1
+"colorscheme quantum
+
+" Colorscheme catppuccin_mocha: Soothing pastel theme for the high-spirited!
 set termguicolors
-let g:quantum_italics=1
-let g:quantum_black=1
-colorscheme quantum
+colorscheme catppuccin_mocha
 
 " Remove pipes | that act as separators on splits
 set fillchars+=vert:\ 
