@@ -130,8 +130,12 @@ alias config="/usr/bin/git --git-dir=$HOME/Code/dotfiles/ --work-tree=$HOME"
 
 
 ### Random Color Script ###
-colorscript random
-
+if [[ $(($RANDOM % 2)) -eq 0 ]]
+then
+    colorscript random
+else
+    pokemon-colorscripts -r --no-title
+fi
 
 ### less color ###
 export LESS_TERMCAP_mb=$'\e[1;32m'
