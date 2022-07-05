@@ -23,6 +23,7 @@
 - powertop
 - thermald
 - fortune-mod
+- cmatrix
 - latte-dock (kde specific)
 
 ## AUR
