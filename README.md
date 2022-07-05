@@ -28,6 +28,7 @@
 ## AUR
 
 - shell-color-scripts
+- pokemon-colorscripts-git
 - auto-cpufreq
 - xfce4-docklike-plugin (xfce4 specific)
 
