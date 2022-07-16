@@ -99,6 +99,7 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', { 'branch':  'release' }
 Plug 'vim-airline/vim-airline'
 Plug 'mhinz/vim-startify'
+Plug 'twerth/ir_black'
 Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'ap/vim-css-color'
@@ -117,8 +118,12 @@ call plug#end()
 "colorscheme quantum
 
 " Colorscheme catppuccin_mocha: Soothing pastel theme for the high-spirited!
+"set termguicolors
+"colorscheme catppuccin_mocha
+
+" Colorscheme ir_black
 set termguicolors
-colorscheme catppuccin_mocha
+colorscheme ir_black
 
 " Remove pipes | that act as separators on splits
 set fillchars+=vert:\ 
