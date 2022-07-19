@@ -101,7 +101,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'mhinz/vim-startify'
 Plug 'twerth/ir_black'
 Plug 'tyrannicaltoucan/vim-quantum'
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'ap/vim-css-color'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
