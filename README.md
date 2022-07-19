@@ -24,14 +24,12 @@
 - thermald
 - fortune-mod
 - cmatrix
-- latte-dock (kde specific)
 
 ## AUR
 
 - shell-color-scripts
 - pokemon-colorscripts-git
 - auto-cpufreq
-- xfce4-docklike-plugin (xfce4 specific)
 
 ## Things to do after installation
 
