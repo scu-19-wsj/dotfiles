@@ -74,7 +74,7 @@ let g:airline_powerline_fonts = 1
 "let g:airline_right_sep=''
 
 " Vim-ariline theme
-let g:airline_theme='quantum'
+"let g:airline_theme='quantum'
 
 
 " ==================== Automatically install Vim-Plug ========================
@@ -111,8 +111,8 @@ call plug#end()
 
 " ===================== Theme =====================
 " Colorscheme Quantum :A color scheme based on Google's Material Design palette.
-"set background=dark
 "set termguicolors
+"set background=dark
 "let g:quantum_italics=1
 "let g:quantum_black=1
 "colorscheme quantum
