@@ -1,3 +1,18 @@
+font:
+  normal:
+    family: Hack NF
+    style: Regular
+  bold:
+    family: Hack NF
+    style: Bold
+  italic:
+    family: Hack NF
+    style: Italic
+  bold_italic:
+    family: Hack NF
+    style: Bold Italic
+  size: 11
+
 # Colors (IR_Black)
 colors:
   bright:
