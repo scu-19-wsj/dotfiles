@@ -23,6 +23,9 @@
 - thermald
 - fortune-mod
 - cmatrix
+- ranger
+- python-pygments
+- w3m
 
 ## AUR
 
