@@ -116,12 +116,8 @@ call plug#end()
 "let g:quantum_black=1
 "colorscheme quantum
 
-" Colorscheme catppuccin_mocha: Soothing pastel theme for the high-spirited!
-"set termguicolors
-"colorscheme catppuccin_mocha
-
 " Colorscheme ir_black
-set termguicolors
+"set termguicolors
 colorscheme ir_black
 
 " Remove pipes | that act as separators on splits
