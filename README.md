@@ -1,20 +1,26 @@
 # Michael's config
 
-## Xfce Themes
+## Desktop Environment
 
-- Matcha-dark-pueril
-- hitori-dots4
+| DE    | Themes | Icon Theme |
+| :-----| :----: | :----:     |
+| Xfce4 | Matcha-dark-pueril & hitori-dots4 | Qogir-dark |
 
-### _Xfce Icon theme_
+## Window Manager Configs
+  
+- [Awesome](https://github.com/scu-19-wsj/dotfiles/tree/main/.config/awesome)
 
-- Qogir-dark
+----------
 
 ## ColorScheme
 
 |  software  |  colorscheme  |
-|  ----  | -----  |
-|  Mousepad | Shades-of-pastel  |
-|  terminal | IR_black  |
+|  ----      | -----         |
+|  Mousepad  | Shades-of-pastel  |
+|  Terminal  | IR_black          |
+|  VScode    | Community Material Theme Darker High Contrast |
+
+----------
 
 ## Packages
 
@@ -26,12 +32,15 @@
 - ranger
 - python-pygments
 - w3m
+- reflector
 
 ## AUR
 
 - shell-color-scripts
 - pokemon-colorscripts-git
 - auto-cpufreq
+
+----------
 
 ## Things to do after installation
 
