@@ -10,8 +10,6 @@
   
 - [Awesome](https://github.com/scu-19-wsj/dotfiles/tree/main/.config/awesome)
 
-----------
-
 ## ColorScheme
 
 |  software  |  colorscheme  |
@@ -19,8 +17,6 @@
 |  Mousepad  | Shades-of-pastel  |
 |  Terminal  | IR_black          |
 |  VScode    | Community Material Theme Darker High Contrast |
-
-----------
 
 ## Packages
 
@@ -39,8 +35,6 @@
 - shell-color-scripts
 - pokemon-colorscripts-git
 - auto-cpufreq
-
-----------
 
 ## Things to do after installation
 
