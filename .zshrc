@@ -114,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-export NO_PROXY="localhost,127.0.0.1,::1"
+export no_proxy="localhost,127.0.0.1,::1"
 proxy () {
   export http_proxy="http://127.0.0.1:9981"
   export https_proxy="http://127.0.0.1:9981"
@@ -139,7 +139,7 @@ else
 fi
 
 
-### less color ###
+### Less Color ###
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
 export LESS_TERMCAP_me=$'\e[0m'
@@ -148,5 +148,3 @@ export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 
-
-export WINIT_X11_SCALE_FACTOR=1

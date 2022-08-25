@@ -158,3 +158,6 @@ quake = utils.quake {
   argname = "--class %s",
 }
 
+-- Autostart
+awful.spawn.with_shell("~/.screenlayout/school3.sh")
+awful.spawn.with_shell("nitrogen --restore")
