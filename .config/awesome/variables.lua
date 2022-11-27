@@ -3,7 +3,7 @@ local utils = require("utils")
 
 terminal = "alacritty"
 browser1 = "firefox"
-browser2 = "qutebrowser"
+browser2 = "google-chrome-stable"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 file1 = terminal .. " -e " .. "ranger"

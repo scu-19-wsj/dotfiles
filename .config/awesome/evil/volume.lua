@@ -73,4 +73,3 @@ awful.spawn.easy_async_with_shell("ps x | grep \"pw-mon\" | grep -v grep | awk '
     })  ]]
 
 end)
-
