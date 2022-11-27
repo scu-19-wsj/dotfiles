@@ -39,7 +39,7 @@ if [ -e /sys/class/power_supply/BAT0 ]; then
 fi
 
 
-picom -b &
+# picom -b &
 fcitx5 &
 pipewire &
 wireplumber &

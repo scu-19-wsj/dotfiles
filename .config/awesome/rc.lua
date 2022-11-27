@@ -159,5 +159,5 @@ quake = utils.quake {
 }
 
 -- Autostart
-awful.spawn.with_shell("~/.screenlayout/school3.sh")
-awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("~/.screenlayout/school2.sh")
+-- awful.spawn.with_shell("nitrogen --restore")
