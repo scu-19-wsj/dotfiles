@@ -31,17 +31,17 @@ appkeys = gtable.join(
     function()
       awful.spawn(file1)
     end,
-    {description = "open main file manager", group = "apps"}),
+    {description = "open main file manager", group = "apps"})
 
-  awful.key({ modkey, shiftkey }, "r",
+  --[[ awful.key({ modkey, shiftkey }, "r",
     function()
       awful.spawn(file2)
     end,
-    {description = "open secondary file manager", group = "apps"}),
+    {description = "open secondary file manager", group = "apps"}), ]]
 
-  awful.key({ modkey }, "n",
+  --[[ awful.key({ modkey }, "n",
     function()
       awful.spawn(music)
     end,
-    {description = "open music player", group = "apps"})
+    {description = "open music player", group = "apps"}) ]]
 )

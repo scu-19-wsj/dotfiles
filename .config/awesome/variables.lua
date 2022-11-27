@@ -7,7 +7,7 @@ browser2 = "google-chrome-stable"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 file1 = terminal .. " -e " .. "ranger"
-file2 = "nemo"
+-- file2 = "nemo"
 music = terminal .. " -e ncmpcpp"
 
 thermal_zone = 9 

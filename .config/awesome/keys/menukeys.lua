@@ -26,9 +26,9 @@ menukeys = gtable.join(
     function()
       awful.spawn.with_shell("prompt " .. "\"Reboot?\" " .. "\"reboot\" " .. "\"rofi -dmenu\"")
     end,
-    {description = "show shutdown prompt", group = "launcher"}),
+    {description = "show shutdown prompt", group = "launcher"})
 
-  awful.key({ modkey }, "x",
+  --[[ awful.key({ modkey }, "x",
     function()
       awful.spawn.with_shell(lockscreen)
     end,
@@ -44,5 +44,5 @@ menukeys = gtable.join(
     function()
       awful.spawn.with_shell("rofi-bluetooth")
     end,
-    {description = "Bluetooth Manager", group = "launcher"})
+    {description = "Bluetooth Manager", group = "launcher"}) ]]
 )

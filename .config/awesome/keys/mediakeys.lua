@@ -55,25 +55,25 @@ mediakeys = gtable.join(
   -- Screen Brightness
   awful.key({}, "XF86MonBrightnessUp",
     function()
-      awful.spawn.with_shell("light -A 5")
+      awful.spawn.with_shell("xbacklight -inc 5")
     end,
     {description = "Increase brightness", group = "controls"}),
 
   awful.key({}, "XF86MonBrightnessDown",
     function()
-      awful.spawn.with_shell("light -U 5")
+      awful.spawn.with_shell("xbacklight -dec 5")
     end,
-    {description = "Decrease brightness", group = "controls"}),
+    {description = "Decrease brightness", group = "controls"})
 
   -- Caffeine Toggle
-  awful.key({}, "XF86Launch1",
+  --[[ awful.key({}, "XF86Launch1",
     function()
       awful.spawn.with_shell("caffeine-toggle")
     end,
-    {description = "Toggle Caffeine", group = "controls"}),
+    {description = "Toggle Caffeine", group = "controls"}), ]]
 
   -- Screenshot
-  awful.key({}, "Print",
+  --[[ awful.key({}, "Print",
     function()
       awful.spawn.with_shell("xfce4-screenshooter -f -s ~/Pictures/Screenshots")
     end,
@@ -89,5 +89,5 @@ mediakeys = gtable.join(
     function()
       awful.spawn.with_shell("xfce4-screenshooter -r -s ~/Pictures/Screenshots")
     end,
-    {description = "took screenshot of selected area", group = "screenshot"})
+    {description = "took screenshot of selected area", group = "screenshot"}) ]]
 )
